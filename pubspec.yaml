@@ -1,0 +1,27 @@
+name: sumehar_subscription_management_project
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.17.0  # Or another appropriate version
+  cloud_firestore: ^5.0.2
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.1.1
+  shared_preferences: ^2.1.0
+  image_picker: ^0.8.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
